@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**DISCLAIMER:**
 
-## Getting Started
+**IMPORTANT NOTICE:**  
+The original source code for Pixiemart was accidentally deleted. However, it has been successfully recovered. We apologize for any inconvenience this may have caused.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Pixiemart - An E-commerce Website
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Description:**  
+Pixiemart is an e-commerce website developed using Next.js, Tailwind CSS, and the Shards React UI component library. It integrates Stripe for secure payment processing, utilizes Stripe webhooks for real-time updates, and stores data using MongoDB via Mongoose. The application also leverages React context for efficient state management.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Key Technologies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js**: Pixiemart is built on the Next.js framework, offering server-side rendering, static site generation, and other performance optimizations out of the box.
+- **Tailwind CSS**: The project utilizes Tailwind CSS for styling, enabling rapid development and customization through utility classes.
+- **ShadCn UI**: ShadCn  UI component library enhances the user interface with elegant and responsive components, ensuring a visually appealing and user-friendly experience.
+- **Stripe**: Stripe integration enables secure payment processing, allowing customers to make purchases using various payment methods with confidence.
+- **Stripe Webhooks**: Pixiemart employs Stripe webhooks for real-time updates on payment events, order processing, and other relevant activities, ensuring seamless transaction management.
+- **MongoDB with Mongoose**: MongoDB serves as the database solution, and Mongoose provides a straightforward way to model application data and interact with the database from Node.js.
+- **React Context**: React context is utilized for state management, facilitating the sharing of data and functionality across components without the need for prop drilling.
 
-## Learn More
+## GitHub Repository:
 
-To learn more about Next.js, take a look at the following resources:
+The source code for Pixiemart, including its Next.js, Tailwind CSS, Shards React, Stripe integration, MongoDB setup, and React context implementation, can be found on GitHub. Please note that the original Pixiemart source code was accidentally deleted, but it has been successfully recovered.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[GitHub Repository Link](https://github.com/your-username/pixiemart)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Structure:
 
-## Deploy on Vercel
+- `pages/`: Contains Next.js pages for different routes and views.
+- `components/`: Includes reusable React components and UI elements.
+- `styles/`: Houses Tailwind CSS configuration and custom stylesheets.
+- `public/`: Stores static assets such as images and fonts.
+- `lib/`: Contains utility functions, API integrations, and database configurations.
+- `context/`: Holds React context providers and hooks for state management.
+- `hooks/`: Includes custom hooks for common functionalities such as data fetching and form handling.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage Instructions:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/your-username/pixiemart.git
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
+3. Configure environment variables for Stripe API keys, MongoDB connection URI, and other sensitive information.
+4. Run the development server:
+   ```
+   npm run dev
+   ```
+   or
+   ```
+   yarn dev
+   ```
+5. Access the Pixiemart website at `http://localhost:3000` and start exploring the e-commerce features.
+
+## Contributing:
+
+Contributions to Pixiemart are welcome! Feel free to submit bug fixes, feature enhancements, or suggestions via GitHub pull requests or issues.
